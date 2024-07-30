@@ -1,0 +1,34 @@
+body {
+    background-color: #00224D;
+    font-family: "Comic Sans MS", cursive;
+    color:white;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+#countLabel{
+    font-size: 30px;
+}
+
+.buttonWrapper{
+    margin-top: 20px;
+}
+
+.buttons {
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+    background-color: #A0153E;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons:hover{
+    background-color: #5D0E41;
+    transition: background-color 0.3s;
+}
